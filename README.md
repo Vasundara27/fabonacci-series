@@ -1,2 +1,10 @@
-# fabonacci-series
-vasundara boya
+
+import math
+r=(float(input("the radius of the circle:"))
+area=math.pi* r * r
+print("the area of the circle with radius 1.1 is: %.16f" %area)
+
+
+filename=input("the filename:")
+f=filename.split(".py)
+print("extensions of the file is :'python'"+f[-1])

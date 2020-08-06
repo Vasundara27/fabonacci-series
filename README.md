@@ -1,10 +1,14 @@
 
-import math
-r=(float(input("the radius of the circle:"))
-area=math.pi* r * r
-print("the area of the circle with radius 1.1 is: %.16f" %area)
-
-
-filename=input("the filename:")
-f=filename.split(".py)
-print("extensions of the file is :'python'"+f[-1])
+# Python program to generate Fibonacci series
+n = int(input("Enter the value of 'n': 5"))
+a = 0
+b = 1
+sum = 0
+count = 1
+print("Fibonacci Series: ", end = " ")
+while (count <= n):
+   print(sum, end = " ")
+   count += 1
+   a = b
+   b = sum
+   sum = a + b
